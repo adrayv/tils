@@ -6,11 +6,15 @@
   "types": "lib/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "prepare": "npm rub build"
+    "prepare": "npm run build"
   },
   "files": [
     "lib/**/*"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrayv/tils.git"
+  },
   "keywords": [
     "utilities",
     "javascript",
